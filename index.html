@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="src/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/css/text.css">
 </head>
 <body>
 
@@ -16,7 +17,7 @@
                           <label for="">EURIE</label>
                     </div>
                        <ul role="list" class="navbar">   
-                        <li><a href="#">Home</a></li>
+                        <li><a href="#home">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Gallery</a></li>
                         <li><a href="#">Noob</a></li>
@@ -28,7 +29,7 @@
 
             <div class="dropdown">
     
-                    <li><a href="#"><button>home</button></a></li>
+                    <li><a href="#"><button>Home</button></a></li>
                     <li><a href="#"><button>About</button></a></li>
                     <li><a href="#"><button>Gallery</button></a></li>
                     <li><a href="#"><button>Noob</button></a></li>
@@ -36,26 +37,19 @@
                     </div>
                 </div>
                 </nav>
-        </header>
+    
+                <section>
+                    <div class="img">
+                    <img src="descartes.jpg" alt="main">
+                    </div>
+                        <div class="main" id="main">
+                            <h1>Hi, im <span>rene descartes</span></h1>
+                            <h3>
+Descartes' famous statement, "Cogito, ergo sum" (I think, therefore I am), encapsulates his philosophy of self-awareness and existence. This assertion emerged from his method of doubt, where he aimed to strip away all beliefs and assumptions to find something indubitable, something that could serve as a foundation for knowledge.</h3>
+                        </div>
+                </section>
 
-        <section>
-            <div class="container"></div>
-        </section>
-        <script src="scr-js/javascript/drop-down.js"> </script>
 
-        <script>
-            const toggleBtn = document.querySelector('.toggle');
-            const toggleBtn1 = document.querySelector('.toggle i');
-            const dropDown = document.querySelector('.dropdown');
-
-            toggleBtn.onclick = function(){
-                dropDown.classList.toggle('open')
-                const isOpen = dropDown.classList.contains('open')
-
-                toggleBtn1.classList = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'
-            }
-
-        </script>
-            
+        <script src="javascript/scr-js/drop-down.js"></script>
 </body>
 </html>

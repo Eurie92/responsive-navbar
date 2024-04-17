@@ -6,10 +6,11 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     height: 100vh;
     width: auto;
     background-color: #c0c0ca;
+    overflow: scroll;
 }
 
 nav {
@@ -104,6 +105,7 @@ svg {display: none;}
 
 
 /*     DROPDOWN  RESPONSIVE  */
+
 @media only screen and (max-width: 768px) {
        .navbar {
         display: none;
