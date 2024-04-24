@@ -38,3 +38,20 @@
 .head-card {
     margin-left: 10px;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .container-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .container-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
