@@ -9,7 +9,7 @@
 body {
     height: 100vh;
     width: auto;
-    background-color: #c0c0ca;
+    background-color: #ffffff;
     overflow: scroll;
 }
 
@@ -20,6 +20,7 @@ nav {
     padding-right: 15px;
     padding: 20px;
     width: auto;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);  
 }
 
 .container {
@@ -27,6 +28,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    
    
 }
 
