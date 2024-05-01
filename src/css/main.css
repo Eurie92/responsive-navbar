@@ -9,12 +9,11 @@
 body {
     height: 100vh;
     width: auto;
-    background-color: #ffffff;
+    background-color: hsl(228, 6%, 8%);
     overflow: scroll;
 }
 
 nav {
-    background-color: #2f2d52;
     height: 100px;
     padding-left: 15px;
     padding-right: 15px;
